@@ -21,7 +21,9 @@
 Utiliza los diferentes comandos para ejecutrar dentro del "Shell" de MongoDB los siguientes instrucciones para alterar la base de datos. :
 
 1. Crea una base de datos
-2. Crea una colección
+use empleados;
+2. Crea una colección;
+db.empleados.save({nombre:Mike})
 3. Inserta el arreglo de datos como documentos en la colección creada
 4. Despliega datos en el formato correcto
 5. Actualiza el salario del empleado donde el "name" sea "Mike" por $5000 USD más
